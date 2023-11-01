@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-01T16:04:23 IST" name="InetBankingV1" finished-at="2023-11-01T16:05:12 IST" duration-ms="49559">
+    <groups>
+    </groups>
+    <test started-at="2023-11-01T16:04:23 IST" name="Login Test" finished-at="2023-11-01T16:05:12 IST" duration-ms="49559">
+      <class name="com.inetbanking.testCases.TC_AddCustomerTest_003">
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext,java.lang.String)[pri:0, instance:com.inetbanking.testCases.TC_AddCustomerTest_003@235834f2]" started-at="2023-11-01T16:04:23 IST" name="setUp" finished-at="2023-11-01T16:04:50 IST" duration-ms="27282" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1f6917fb]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addNewCustomer()[pri:0, instance:com.inetbanking.testCases.TC_AddCustomerTest_003@235834f2]" started-at="2023-11-01T16:04:50 IST" name="addNewCustomer" finished-at="2023-11-01T16:05:11 IST" duration-ms="20882" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewCustomer -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.inetbanking.testCases.TC_AddCustomerTest_003@235834f2]" started-at="2023-11-01T16:05:11 IST" name="tearDown" finished-at="2023-11-01T16:05:12 IST" duration-ms="857" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.inetbanking.testCases.TC_AddCustomerTest_003 -->
+    </test> <!-- Login Test -->
+  </suite> <!-- InetBankingV1 -->
+</testng-results>
